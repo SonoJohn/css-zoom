@@ -1,0 +1,22 @@
+/* RESET */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* VIEW SECTION */
+
+.view-section {
+    width: 100%;
+    height: 90vh;
+    background-color: black;
+}
+
+/* ACTIONS SECTION */
+
+.actions-section {
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(43, 43, 43);
+}
