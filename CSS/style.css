@@ -83,7 +83,24 @@
     height: 10vh;
     background-color: rgb(43, 43, 43);
     color: white;
+    justify-content: space-between;
 }
+
+.actions {
+
+    /* DEBUG */
+    /* width: calc(100% / 3); */
+    /* border: 1px solid red; */
+}
+
+/* VIDEO ACTION */
+/* .video-actions {} */
+
+/* MAIN ACTIONS */
+/* .main-actions {} */
+
+/* END BUTTON */
+/* .end-button {} */
 
 /* BUTTON */
 .btn {
@@ -95,7 +112,7 @@
     padding: 20px 10px;
     /* DEBUG */
     /* width: 50px; */
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .icon {
@@ -107,7 +124,7 @@
     height: 40%;
     font-size: 0.90rem;
     /* DEBUG */
-    border: 1px solid white;
+    /* border: 1px solid white; */
 }
 
 /* EXPAND MENU */
@@ -115,14 +132,14 @@
     font-size: 0.9rem;
     align-items: center;
     /* DEBUG */
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
-
-
-.actions {
-
-    /* DEBUG */
-    width: calc(100% / 3);
-    border: 1px solid red;
+/* END BUTTON */
+.end-button {
+    background-color: rgb(58, 58, 58);
+    color: red;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
 }
