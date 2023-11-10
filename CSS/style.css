@@ -24,8 +24,16 @@
     top: 10px;
     right: 40px;
     z-index: 10;
+    gap: 10px;
     /* DEBUG */
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+
+.view-btn {
+    background-color: rgb(58, 58, 58);
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px white;
+    padding: 5px 5px;
 }
 
 /* VIEW SECTION */
@@ -41,11 +49,6 @@
     position: relative;
     color: white;
 }
-
-
-
-.view-btn {}
-
 
 /* WEBCAMS */
 
