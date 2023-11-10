@@ -68,6 +68,10 @@
     position: relative;
 }
 
+.img-container:hover {
+    border: 2px solid white;
+}
+
 .name-border {
     position: absolute;
     bottom: 0;
@@ -123,6 +127,10 @@
 .icon {
     height: 60%;
     font-size: xx-large;
+}
+
+.green {
+    color: green;
 }
 
 .description {
