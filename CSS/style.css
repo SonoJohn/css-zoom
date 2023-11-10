@@ -11,6 +11,11 @@
     display: flex;
 }
 
+.clickable:hover {
+    cursor: pointer;
+    background-color: rgb(58, 58, 58);
+}
+
 /* ALL APP */
 .all-app {
     position: relative;
@@ -146,4 +151,6 @@
 
 .end-button:hover {
     cursor: pointer;
+    background-color: red;
+    color: white;
 }
