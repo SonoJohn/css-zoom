@@ -11,6 +11,22 @@
     display: flex;
 }
 
+/* ALL APP */
+.all-app {
+    position: relative;
+}
+
+/* SPEAKER VIEW */
+
+.view-container {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+    z-index: 10;
+    /* DEBUG */
+    border: 1px solid red;
+}
 
 /* VIEW SECTION */
 
@@ -22,7 +38,14 @@
     flex-wrap: wrap;
     overflow: auto;
     gap: 20px 10px;
+    position: relative;
+    color: white;
 }
+
+
+
+.view-btn {}
+
 
 /* WEBCAMS */
 
